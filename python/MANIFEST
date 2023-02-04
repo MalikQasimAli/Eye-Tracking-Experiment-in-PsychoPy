@@ -1,0 +1,15 @@
+monitor:
+  w: 1920
+  h: 1080
+distance: 50 cm
+
+file naming scheme:
+
+outfilename = "%s-%s-%s-%s.raw" % (subj,exp_id,ses_id,stim)
+
+subj = filename.split('-')[0]
+exp_id = filename.split('-')[1]
+ses_id = filename.split('-')[2]
+stim = filename.split('-')[3]
+print("subj, exp_id, ses_id, stim: ", \
+       subj, exp_id, ses_id, stim)

@@ -1,0 +1,437 @@
+0.8725 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+19.2529 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([1., 1., 1.]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x00000287E5D82520>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x00000287E7CE3610>, multiSample=False, name='window1', numSamples=2, pos=(0, 0), screen=0, size=array([1920, 1080]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+19.2530 	EXP 	window1: mouseVisible = True
+19.2531 	EXP 	window1: mouseVisible = False
+19.2531 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+19.2531 	EXP 	window1: recordFrameIntervals = False
+19.3220 	EXP 	window1: recordFrameIntervals = True
+19.3985 	EXP 	Screen (0) actual frame rate measured at 143.97Hz
+19.3986 	EXP 	window1: recordFrameIntervals = False
+20.8019 	EXP 	Created calb_img = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='instructions/calib_i.jpeg', interpolate=True, mask=None, maskParams=None, name='calb_img', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1.77777778, 1.        ]), texRes=128.0, units='height', win=Window(...))
+20.9861 	EXP 	Created valid_img = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='instructions/valid_i.jpeg', interpolate=True, mask=None, maskParams=None, name='valid_img', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1.77777778, 1.        ]), texRes=128.0, units='height', win=Window(...))
+21.0578 	EXP 	Created calib_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1, -1, -1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='calib_text', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+21.0824 	EXP 	Created txt_title = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='txt_title', opacity=1.0, ori=0.0, pos=array([0. , 0.4]), rgb=UNKNOWN, text='::: Safety Inspecter :::', units='height', win=Window(...), wrapWidth=1)
+21.2212 	EXP 	Created img_title = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image=str(...), interpolate=True, mask=None, maskParams=None, name='img_title', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1. , 0.7]), texRes=128.0, units='height', win=Window(...))
+21.2276 	EXP 	Created txt_continue = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='txt_continue', opacity=1.0, ori=0.0, pos=array([ 0. , -0.4]), rgb=UNKNOWN, text=':: Press space to start  ::', units='height', win=Window(...), wrapWidth=1)
+21.2308 	EXP 	Created inst_title = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='inst_title', opacity=1.0, ori=0.0, pos=array([0. , 0.4]), rgb=UNKNOWN, text='::: Instructions :::', units='height', win=Window(...), wrapWidth=1)
+21.2470 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text', opacity=1.0, ori=0.0, pos=array([ 0.  , -0.05]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+21.2527 	EXP 	Created img_fix = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='img_fix', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.88888889, 0.5       ]), texRes=128.0, units='height', win=Window(...))
+21.2588 	EXP 	Created img_ques = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='img_ques', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.88888889, 0.5       ]), texRes=128.0, units='height', win=Window(...))
+21.2648 	EXP 	Created answer = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='answer', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.88888889, 0.5       ]), texRes=128.0, units='height', win=Window(...))
+21.2656 	EXP 	Created nasa_question = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1, -1, -1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.02, italic=False, languageStyle='LTR', name='nasa_question', opacity=1.0, ori=0.0, pos=array([0. , 0.3]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1.0)
+21.2662 	EXP 	Created nasa_tresec = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1, -1, -1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='nasa_tresec', opacity=1.0, ori=0.0, pos=array([0. , 0.2]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+21.2703 	EXP 	window1: mouseVisible = True
+21.3053 	EXP 	Created nasa_slider = Slider(__class__=<class 'psychopy.visual.slider.Slider'>, autoDraw=False, autoLog=True, borderColor=None, color=None, colorSpace='rgb', depth=-2, fillColor=None, flip=False, font='Open Sans', granularity=1.0, labelColor=None, labelHeight=0.03, labelWrapWidth=None, labels=['no', 'yes'], lineColor=None, markerColor=None, name='nasa_slider', opacity=None, ori=0.0, pos=array([0., 0.]), readOnly=False, self=UNKNOWN, size=array([1.  , 0.02]), startValue=None, style='radio', styleTweaks=[], ticks=ndarray(...), units='height', win=Window(...))
+21.5267 	EXP 	Created end_img = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='stimuli/thankyou.jpg', interpolate=True, mask=None, maskParams=None, name='end_img', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1.77777778, 1.        ]), texRes=128.0, units='height', win=Window(...))
+21.5409 	EXP 	nasa_slider: autoLog = True
+21.5409 	EXP 	nasa_slider: markerPos = None
+21.5409 	EXP 	nasa_slider: styleTweaks = []
+21.5409 	EXP 	nasa_slider: styleTweaks = []
+21.5409 	EXP 	nasa_slider: styleTweaks = []
+21.5409 	EXP 	nasa_slider: styleTweaks = []
+21.5409 	EXP 	nasa_slider: contrast = 1.0
+21.5409 	EXP 	nasa_slider: autoLog = True
+21.5409 	EXP 	calb_img: autoDraw = True
+22.2725 	DATA 	Keypress: space
+22.2789 	EXP 	Created sequence: sequential, trialTypes=1, nReps=10, seed=None
+22.2791 	EXP 	New trial (rep=0, index=0): None
+22.2850 	EXP 	Created calibrationTarget = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([-1, -1, -1]), lineColorSpace='rgb', lineRGB=array([-1, -1, -1]), lineWidth=2.0, name='calibrationTarget', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0., 0.]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+22.2879 	EXP 	Created calibrationTargetInner = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0, fillColor=array([-1.        ,  0.00392157, -1.        ]), fillColorSpace='rgb', fillRGB=array([-1.        ,  0.00392157, -1.        ]), interpolate=True, lineColor=array([-1, -1, -1]), lineColorSpace='rgb', lineRGB=array([-1, -1, -1]), lineWidth=2.0, name='calibrationTargetInner', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0., 0.]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+45.0235 	EXP 	calb_img: autoDraw = False
+45.0531 	EXP 	valid_img: autoDraw = True
+47.3922 	EXP 	Created validationTarget = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([-1, -1, -1]), lineColorSpace='rgb', lineRGB=array([-1, -1, -1]), lineWidth=2.0, name='validationTarget', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0., 0.]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+47.3951 	EXP 	Created validationTargetInner = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0, fillColor=array([-1.        ,  0.00392157, -1.        ]), fillColorSpace='rgb', fillRGB=array([-1.        ,  0.00392157, -1.        ]), interpolate=True, lineColor=array([-1, -1, -1]), lineColorSpace='rgb', lineRGB=array([-1, -1, -1]), lineWidth=2.0, name='validationTargetInner', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0., 0.]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+47.5002 	EXP 	Created unnamed GratingStim = GratingStim(__class__=<class 'psychopy.visual.grating.GratingStim'>, anchor='center', autoDraw=False, autoLog=True, blendmode='avg', color=array([-1.        ,  0.00392157, -1.        ]), colorSpace='rgb', contrast=1.0, depth=0, interpolate=False, mask='gauss', maskParams=None, name='unnamed GratingStim', opacity=0.8, ori=0.0, phase=array([0., 0.]), pos=array([0., 0.]), rgbPedestal=array([0., 0., 0.]), sf=array([0.00981534, 0.00981534]), size=array([101.881344, 101.881344]), tex=None, texRes=128, units='pix', win=Window(...))
+47.5288 	DATA 	Keypress: space
+47.5313 	EXP 	valid_img: autoDraw = False
+66.6813 	EXP 	Created unnamed TextStim = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1, -1, -1]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, font='', fontFiles=[], height=24.0, italic=False, languageStyle='LTR', name='unnamed TextStim', opacity=1.0, ori=0.0, pos=array([  0., 513.]), rgb=UNKNOWN, text=str(...), units='pix', win=Window(...), wrapWidth=1536.0)
+66.6911 	EXP 	Created unnamed TextStim = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=True, color=array([-1, -1, -1]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, font='', fontFiles=[], height=20.0, italic=False, languageStyle='LTR', name='unnamed TextStim', opacity=1.0, ori=0.0, pos=array([   0., -513.]), rgb=UNKNOWN, text='Press SPACE to continue.', units='pix', win=Window(...), wrapWidth=1536.0)
+70.4991 	DATA 	Keypress: space
+70.5022 	EXP 	calib_text: height = 0.05
+70.5022 	EXP 	calib_text: height = 0.05
+70.5022 	EXP 	calib_text: height = 0.05
+70.5022 	EXP 	calib_text: text = 'Validation Results in height units\nMin: 0.0202, Max: 0.1069, Mean: 0.0565 (height units)\n\nValidation Results in degree visual angle\nMin: 0.3655, Max: 1.9307, Mean: 1.0203\n\nRecalibrate (y/n)?'
+70.5022 	EXP 	calib_text: autoDraw = True
+73.7220 	DATA 	Keypress: n
+73.7261 	EXP 	calib_text: autoDraw = False
+73.7261 	EXP 	txt_title: autoDraw = True
+73.7261 	EXP 	img_title: autoDraw = True
+73.7261 	EXP 	txt_continue: autoDraw = True
+80.2487 	DATA 	Keypress: space
+80.2538 	EXP 	txt_title: autoDraw = False
+80.2538 	EXP 	img_title: autoDraw = False
+80.2538 	EXP 	txt_continue: autoDraw = False
+80.2538 	EXP 	inst_title: autoDraw = True
+80.2538 	EXP 	text: autoDraw = True
+95.2973 	EXP 	Imported trials_code.csv as conditions, 3 conditions, 5 params
+95.2976 	EXP 	Created sequence: random, trialTypes=3, nReps=1, seed=None
+95.2979 	EXP 	New trial (rep=0, index=0): OrderedDict([('trial_id', 'ts03'), ('fix', 'tsf03.jpeg'), ('ques', 'tsq03.jpeg'), ('answ', 'tsa03.jpeg'), ('cor', 'b')])
+95.3852 	DATA 	Keypress: space
+95.3965 	EXP 	inst_title: autoDraw = False
+95.3965 	EXP 	text: autoDraw = False
+95.3965 	EXP 	img_fix: image = 'stimuli/tsf03.jpeg'
+95.3965 	EXP 	img_fix: autoDraw = True
+95.8675 	EXP 	img_fix: autoDraw = False
+95.8675 	EXP 	img_ques: image = 'stimuli/tsq03.jpeg'
+96.2932 	EXP 	img_ques: autoDraw = True
+96.2937 	EXP 	eyetracker.clearEvents()
+96.2995 	EXP 	eyetracker.setRecordingState(True)
+109.0936 	EXP 	eyetracker.setRecordingState(False)
+109.1555 	DATA 	Keypress: space
+109.1602 	EXP 	img_ques: autoDraw = False
+109.1602 	EXP 	answer: image = 'stimuli/tsa03.jpeg'
+109.5979 	EXP 	answer: autoDraw = True
+109.5982 	EXP 	eyetracker.clearEvents()
+109.6023 	EXP 	eyetracker.setRecordingState(True)
+117.6071 	EXP 	eyetracker.setRecordingState(False)
+117.6075 	EXP 	New trial (rep=0, index=1): OrderedDict([('trial_id', 'ts01'), ('fix', 'tsf01.jpeg'), ('ques', 'tsq01.jpeg'), ('answ', 'tsa01.jpeg'), ('cor', 'c')])
+117.6302 	DATA 	Keypress: b
+117.6356 	EXP 	answer: autoDraw = False
+117.6356 	EXP 	img_fix: image = 'stimuli/tsf01.jpeg'
+117.6356 	EXP 	img_fix: autoDraw = True
+118.1315 	EXP 	img_fix: autoDraw = False
+118.1315 	EXP 	img_ques: image = 'stimuli/tsq01.jpeg'
+118.6109 	EXP 	img_ques: autoDraw = True
+118.6111 	EXP 	eyetracker.clearEvents()
+118.6115 	EXP 	eyetracker.setRecordingState(True)
+130.5858 	EXP 	eyetracker.setRecordingState(False)
+130.6026 	DATA 	Keypress: space
+130.6074 	EXP 	img_ques: autoDraw = False
+130.6074 	EXP 	answer: image = 'stimuli/tsa01.jpeg'
+131.0869 	EXP 	answer: autoDraw = True
+131.0871 	EXP 	eyetracker.clearEvents()
+131.0875 	EXP 	eyetracker.setRecordingState(True)
+134.8914 	EXP 	eyetracker.setRecordingState(False)
+134.8917 	EXP 	New trial (rep=0, index=2): OrderedDict([('trial_id', 'ts02'), ('fix', 'tsf02.jpeg'), ('ques', 'tsq02.jpeg'), ('answ', 'tsa02.jpeg'), ('cor', 'b')])
+134.9144 	DATA 	Keypress: c
+134.9203 	EXP 	answer: autoDraw = False
+134.9203 	EXP 	img_fix: image = 'stimuli/tsf02.jpeg'
+134.9203 	EXP 	img_fix: autoDraw = True
+135.4162 	EXP 	img_fix: autoDraw = False
+135.4162 	EXP 	img_ques: image = 'stimuli/tsq02.jpeg'
+135.8953 	EXP 	img_ques: autoDraw = True
+135.8956 	EXP 	eyetracker.clearEvents()
+135.8959 	EXP 	eyetracker.setRecordingState(True)
+144.5798 	EXP 	eyetracker.setRecordingState(False)
+144.5969 	DATA 	Keypress: space
+144.5990 	EXP 	img_ques: autoDraw = False
+144.5990 	EXP 	answer: image = 'stimuli/tsa02.jpeg'
+145.0875 	EXP 	answer: autoDraw = True
+145.0877 	EXP 	eyetracker.clearEvents()
+145.0918 	EXP 	eyetracker.setRecordingState(True)
+146.3078 	EXP 	eyetracker.setRecordingState(False)
+146.3103 	EXP 	Imported nasa_tlx_eng.csv as conditions, 6 conditions, 2 params
+146.3105 	EXP 	Created sequence: random, trialTypes=6, nReps=1, seed=None
+146.3107 	EXP 	New trial (rep=0, index=0): OrderedDict([('nasa_ques', '::: FRUSTRATION :::'), ('nasa_tre', 'Were you insecure, discouraged, irritated, stressed, and annoyed?')])
+146.3271 	DATA 	Keypress: b
+146.3334 	EXP 	answer: autoDraw = False
+146.3334 	EXP 	nasa_question: height = 0.02
+146.3334 	EXP 	nasa_question: height = 0.02
+146.3334 	EXP 	nasa_question: height = 0.02
+146.3334 	EXP 	nasa_question: text = '::: FRUSTRATION :::'
+146.3334 	EXP 	nasa_tresec: height = 0.05
+146.3334 	EXP 	nasa_tresec: height = 0.05
+146.3334 	EXP 	nasa_tresec: height = 0.05
+146.3334 	EXP 	nasa_tresec: text = 'Were you insecure, discouraged, irritated, stressed, and annoyed?'
+146.3334 	EXP 	nasa_slider: markerPos = None
+146.3334 	EXP 	nasa_slider: markerPos = None
+146.3334 	EXP 	nasa_question: autoDraw = True
+146.3334 	EXP 	nasa_tresec: autoDraw = True
+146.3334 	EXP 	nasa_slider: autoDraw = True
+155.3295 	DATA 	Mouse: Left button down, pos=(548,532)
+155.3392 	EXP 	nasa_slider: markerPos = 3.251851851851852
+155.3460 	EXP 	nasa_slider: markerPos = 3.251851851851852
+155.3528 	EXP 	nasa_slider: markerPos = 3.251851851851852
+155.3598 	EXP 	nasa_slider: markerPos = 3.251851851851852
+155.3667 	EXP 	nasa_slider: markerPos = 3.251851851851852
+155.3737 	EXP 	nasa_slider: markerPos = 3.251851851851852
+155.3806 	EXP 	nasa_slider: markerPos = 3.251851851851852
+155.3875 	EXP 	nasa_slider: markerPos = 3.251851851851852
+155.3945 	EXP 	nasa_slider: markerPos = 3.251851851851852
+155.4015 	EXP 	nasa_slider: markerPos = 3.251851851851852
+155.4084 	EXP 	nasa_slider: markerPos = 3.251851851851852
+155.4154 	EXP 	nasa_slider: markerPos = 3.251851851851852
+155.4223 	EXP 	nasa_slider: markerPos = 3.251851851851852
+155.4293 	EXP 	nasa_slider: markerPos = 3.251851851851852
+155.4361 	EXP 	nasa_slider: markerPos = 3.251851851851852
+155.4432 	EXP 	nasa_slider: markerPos = 3.251851851851852
+155.4501 	EXP 	nasa_slider: markerPos = 3.251851851851852
+155.4571 	EXP 	nasa_slider: markerPos = 3.251851851851852
+155.4639 	EXP 	nasa_slider: markerPos = 3.251851851851852
+155.4709 	EXP 	nasa_slider: markerPos = 3.251851851851852
+155.4779 	EXP 	nasa_slider: markerPos = 3.251851851851852
+155.4848 	EXP 	nasa_slider: markerPos = 3.251851851851852
+155.4918 	EXP 	nasa_slider: markerPos = 3.251851851851852
+155.4988 	EXP 	nasa_slider: markerPos = 3.251851851851852
+155.5057 	EXP 	nasa_slider: markerPos = 3.251851851851852
+155.5126 	EXP 	nasa_slider: markerPos = 3.251851851851852
+155.5196 	EXP 	nasa_slider: markerPos = 3.251851851851852
+155.5266 	EXP 	nasa_slider: markerPos = 3.251851851851852
+155.5335 	EXP 	nasa_slider: markerPos = 3.251851851851852
+155.5404 	EXP 	nasa_slider: markerPos = 3.251851851851852
+155.5454 	DATA 	Mouse:  Left button up, pos=(548,532)
+155.5474 	EXP 	nasa_slider: markerPos = 3.251851851851852
+155.5543 	EXP 	nasa_slider: markerPos = 3.0
+155.5558 	EXP 	New trial (rep=0, index=1): OrderedDict([('nasa_ques', '::: PHYSICAL DEMAND :::'), ('nasa_tre', 'Was the task physically demanding?')])
+155.5777 	EXP 	nasa_question: autoDraw = False
+155.5777 	EXP 	nasa_tresec: autoDraw = False
+155.5777 	EXP 	nasa_slider: autoDraw = False
+155.5777 	EXP 	nasa_question: height = 0.02
+155.5777 	EXP 	nasa_question: height = 0.02
+155.5777 	EXP 	nasa_question: height = 0.02
+155.5777 	EXP 	nasa_question: text = '::: PHYSICAL DEMAND :::'
+155.5777 	EXP 	nasa_tresec: height = 0.05
+155.5777 	EXP 	nasa_tresec: height = 0.05
+155.5777 	EXP 	nasa_tresec: height = 0.05
+155.5777 	EXP 	nasa_tresec: text = 'Was the task physically demanding?'
+155.5777 	EXP 	nasa_slider: markerPos = None
+155.5777 	EXP 	nasa_slider: markerPos = None
+155.5777 	EXP 	nasa_question: autoDraw = True
+155.5777 	EXP 	nasa_tresec: autoDraw = True
+155.5777 	EXP 	nasa_slider: autoDraw = True
+158.9899 	DATA 	Mouse: Left button down, pos=(524,539)
+159.0023 	EXP 	nasa_slider: markerPos = 2.829629629629629
+159.0077 	EXP 	nasa_slider: markerPos = 2.829629629629629
+159.0146 	EXP 	nasa_slider: markerPos = 2.829629629629629
+159.0216 	EXP 	nasa_slider: markerPos = 2.829629629629629
+159.0286 	EXP 	nasa_slider: markerPos = 2.829629629629629
+159.0355 	EXP 	nasa_slider: markerPos = 2.829629629629629
+159.0424 	EXP 	nasa_slider: markerPos = 2.829629629629629
+159.0495 	EXP 	nasa_slider: markerPos = 2.829629629629629
+159.0564 	EXP 	nasa_slider: markerPos = 2.829629629629629
+159.0633 	EXP 	nasa_slider: markerPos = 2.829629629629629
+159.0703 	EXP 	nasa_slider: markerPos = 2.829629629629629
+159.0773 	EXP 	nasa_slider: markerPos = 2.829629629629629
+159.0841 	EXP 	nasa_slider: markerPos = 2.829629629629629
+159.0911 	EXP 	nasa_slider: markerPos = 2.829629629629629
+159.0995 	EXP 	nasa_slider: markerPos = 2.829629629629629
+159.1056 	EXP 	nasa_slider: markerPos = 2.829629629629629
+159.1126 	EXP 	nasa_slider: markerPos = 2.829629629629629
+159.1195 	EXP 	nasa_slider: markerPos = 2.829629629629629
+159.1264 	EXP 	nasa_slider: markerPos = 2.829629629629629
+159.1334 	EXP 	nasa_slider: markerPos = 2.829629629629629
+159.1413 	EXP 	nasa_slider: markerPos = 2.829629629629629
+159.1474 	EXP 	nasa_slider: markerPos = 2.829629629629629
+159.1544 	EXP 	nasa_slider: markerPos = 2.829629629629629
+159.1613 	EXP 	nasa_slider: markerPos = 2.829629629629629
+159.1683 	EXP 	nasa_slider: markerPos = 2.829629629629629
+159.1753 	EXP 	nasa_slider: markerPos = 2.829629629629629
+159.1822 	EXP 	nasa_slider: markerPos = 2.829629629629629
+159.1892 	EXP 	nasa_slider: markerPos = 2.829629629629629
+159.1961 	EXP 	nasa_slider: markerPos = 2.829629629629629
+159.2031 	EXP 	nasa_slider: markerPos = 2.829629629629629
+159.2072 	DATA 	Mouse:  Left button up, pos=(524,539)
+159.2099 	EXP 	nasa_slider: markerPos = 2.829629629629629
+159.2169 	EXP 	nasa_slider: markerPos = 3.0
+159.2190 	EXP 	New trial (rep=0, index=2): OrderedDict([('nasa_ques', '::: PERFORMANCE :::'), ('nasa_tre', 'Were you successful in accomplishing what you were asked to do?')])
+159.2322 	EXP 	nasa_question: autoDraw = False
+159.2322 	EXP 	nasa_tresec: autoDraw = False
+159.2322 	EXP 	nasa_slider: autoDraw = False
+159.2322 	EXP 	nasa_question: height = 0.02
+159.2322 	EXP 	nasa_question: height = 0.02
+159.2322 	EXP 	nasa_question: height = 0.02
+159.2322 	EXP 	nasa_question: text = '::: PERFORMANCE :::'
+159.2322 	EXP 	nasa_tresec: height = 0.05
+159.2322 	EXP 	nasa_tresec: height = 0.05
+159.2322 	EXP 	nasa_tresec: height = 0.05
+159.2322 	EXP 	nasa_tresec: text = 'Were you successful in accomplishing what you were asked to do?'
+159.2322 	EXP 	nasa_slider: markerPos = None
+159.2322 	EXP 	nasa_slider: markerPos = None
+159.2322 	EXP 	nasa_question: autoDraw = True
+159.2322 	EXP 	nasa_tresec: autoDraw = True
+159.2322 	EXP 	nasa_slider: autoDraw = True
+163.4698 	DATA 	Mouse: Left button down, pos=(428,545)
+163.4800 	EXP 	nasa_slider: markerPos = 1.1407407407407408
+163.4870 	EXP 	nasa_slider: markerPos = 1.1407407407407408
+163.4939 	EXP 	nasa_slider: markerPos = 1.1407407407407408
+163.5010 	EXP 	nasa_slider: markerPos = 1.1407407407407408
+163.5079 	EXP 	nasa_slider: markerPos = 1.1407407407407408
+163.5148 	EXP 	nasa_slider: markerPos = 1.1407407407407408
+163.5218 	EXP 	nasa_slider: markerPos = 1.1407407407407408
+163.5288 	EXP 	nasa_slider: markerPos = 1.1407407407407408
+163.5359 	EXP 	nasa_slider: markerPos = 1.1407407407407408
+163.5428 	EXP 	nasa_slider: markerPos = 1.1407407407407408
+163.5514 	EXP 	nasa_slider: markerPos = 1.1407407407407408
+163.5571 	EXP 	nasa_slider: markerPos = 1.1407407407407408
+163.5642 	EXP 	nasa_slider: markerPos = 1.1407407407407408
+163.5711 	EXP 	nasa_slider: markerPos = 1.1407407407407408
+163.5781 	EXP 	nasa_slider: markerPos = 1.1407407407407408
+163.5850 	EXP 	nasa_slider: markerPos = 1.1407407407407408
+163.5920 	EXP 	nasa_slider: markerPos = 1.1407407407407408
+163.5989 	EXP 	nasa_slider: markerPos = 1.1407407407407408
+163.6059 	EXP 	nasa_slider: markerPos = 1.1407407407407408
+163.6127 	EXP 	nasa_slider: markerPos = 1.1407407407407408
+163.6198 	EXP 	nasa_slider: markerPos = 1.1407407407407408
+163.6267 	EXP 	nasa_slider: markerPos = 1.1407407407407408
+163.6337 	EXP 	nasa_slider: markerPos = 1.1407407407407408
+163.6407 	EXP 	nasa_slider: markerPos = 1.1407407407407408
+163.6477 	EXP 	nasa_slider: markerPos = 1.1407407407407408
+163.6546 	EXP 	nasa_slider: markerPos = 1.1407407407407408
+163.6614 	EXP 	nasa_slider: markerPos = 1.1407407407407408
+163.6684 	EXP 	nasa_slider: markerPos = 1.1407407407407408
+163.6753 	EXP 	nasa_slider: markerPos = 1.1407407407407408
+163.6823 	EXP 	nasa_slider: markerPos = 1.1407407407407408
+163.6907 	EXP 	nasa_slider: markerPos = 1.1407407407407408
+163.6918 	DATA 	Mouse:  Left button up, pos=(428,545)
+163.6963 	EXP 	nasa_slider: markerPos = 1.0
+163.6973 	EXP 	New trial (rep=0, index=3): OrderedDict([('nasa_ques', '::: EFFORT :::'), ('nasa_tre', 'Did you have to work hard to accomplish your level of performance?')])
+163.7104 	EXP 	nasa_question: autoDraw = False
+163.7104 	EXP 	nasa_tresec: autoDraw = False
+163.7104 	EXP 	nasa_slider: autoDraw = False
+163.7104 	EXP 	nasa_question: height = 0.02
+163.7104 	EXP 	nasa_question: height = 0.02
+163.7104 	EXP 	nasa_question: height = 0.02
+163.7104 	EXP 	nasa_question: text = '::: EFFORT :::'
+163.7104 	EXP 	nasa_tresec: height = 0.05
+163.7104 	EXP 	nasa_tresec: height = 0.05
+163.7104 	EXP 	nasa_tresec: height = 0.05
+163.7104 	EXP 	nasa_tresec: text = 'Did you have to work hard to accomplish your level of performance?'
+163.7104 	EXP 	nasa_slider: markerPos = None
+163.7104 	EXP 	nasa_slider: markerPos = None
+163.7104 	EXP 	nasa_question: autoDraw = True
+163.7104 	EXP 	nasa_tresec: autoDraw = True
+163.7104 	EXP 	nasa_slider: autoDraw = True
+167.6431 	DATA 	Mouse: Left button down, pos=(523,534)
+167.6537 	EXP 	nasa_slider: markerPos = 2.8120370370370376
+167.6606 	EXP 	nasa_slider: markerPos = 2.8120370370370376
+167.6677 	EXP 	nasa_slider: markerPos = 2.8120370370370376
+167.6746 	EXP 	nasa_slider: markerPos = 2.8120370370370376
+167.6816 	EXP 	nasa_slider: markerPos = 2.8120370370370376
+167.6884 	EXP 	nasa_slider: markerPos = 2.8120370370370376
+167.6954 	EXP 	nasa_slider: markerPos = 2.8120370370370376
+167.7024 	EXP 	nasa_slider: markerPos = 2.8120370370370376
+167.7093 	EXP 	nasa_slider: markerPos = 2.8120370370370376
+167.7163 	EXP 	nasa_slider: markerPos = 2.8120370370370376
+167.7232 	EXP 	nasa_slider: markerPos = 2.8120370370370376
+167.7302 	EXP 	nasa_slider: markerPos = 2.8120370370370376
+167.7371 	EXP 	nasa_slider: markerPos = 2.8120370370370376
+167.7440 	EXP 	nasa_slider: markerPos = 2.8120370370370376
+167.7511 	EXP 	nasa_slider: markerPos = 2.8120370370370376
+167.7580 	EXP 	nasa_slider: markerPos = 2.8120370370370376
+167.7648 	EXP 	nasa_slider: markerPos = 2.8120370370370376
+167.7718 	EXP 	nasa_slider: markerPos = 2.8120370370370376
+167.7788 	EXP 	nasa_slider: markerPos = 2.8120370370370376
+167.7857 	EXP 	nasa_slider: markerPos = 2.8120370370370376
+167.7927 	EXP 	nasa_slider: markerPos = 2.8120370370370376
+167.7997 	EXP 	nasa_slider: markerPos = 2.8120370370370376
+167.8067 	EXP 	nasa_slider: markerPos = 2.8120370370370376
+167.8136 	EXP 	nasa_slider: markerPos = 2.8120370370370376
+167.8205 	EXP 	nasa_slider: markerPos = 2.8120370370370376
+167.8275 	EXP 	nasa_slider: markerPos = 2.8120370370370376
+167.8344 	EXP 	nasa_slider: markerPos = 2.8120370370370376
+167.8414 	EXP 	nasa_slider: markerPos = 2.8120370370370376
+167.8483 	EXP 	nasa_slider: markerPos = 2.8120370370370376
+167.8553 	EXP 	nasa_slider: markerPos = 2.8120370370370376
+167.8622 	EXP 	nasa_slider: markerPos = 2.8120370370370376
+167.8661 	DATA 	Mouse:  Left button up, pos=(523,534)
+167.8692 	EXP 	nasa_slider: markerPos = 2.8120370370370376
+167.8761 	EXP 	nasa_slider: markerPos = 3.0
+167.8771 	EXP 	New trial (rep=0, index=4): OrderedDict([('nasa_ques', '::: MENTAL DEMAND :::'), ('nasa_tre', 'Was the task mentally demanding?')])
+167.8866 	EXP 	nasa_question: autoDraw = False
+167.8866 	EXP 	nasa_tresec: autoDraw = False
+167.8866 	EXP 	nasa_slider: autoDraw = False
+167.8866 	EXP 	nasa_question: height = 0.02
+167.8866 	EXP 	nasa_question: height = 0.02
+167.8866 	EXP 	nasa_question: height = 0.02
+167.8866 	EXP 	nasa_question: text = '::: MENTAL DEMAND :::'
+167.8866 	EXP 	nasa_tresec: height = 0.05
+167.8866 	EXP 	nasa_tresec: height = 0.05
+167.8866 	EXP 	nasa_tresec: height = 0.05
+167.8866 	EXP 	nasa_tresec: text = 'Was the task mentally demanding?'
+167.8866 	EXP 	nasa_slider: markerPos = None
+167.8866 	EXP 	nasa_slider: markerPos = None
+167.8866 	EXP 	nasa_question: autoDraw = True
+167.8866 	EXP 	nasa_tresec: autoDraw = True
+167.8866 	EXP 	nasa_slider: autoDraw = True
+169.7888 	DATA 	Mouse: Left button down, pos=(419,540)
+169.7996 	EXP 	nasa_slider: markerPos = 0.9824074074074082
+169.8066 	EXP 	nasa_slider: markerPos = 0.9824074074074082
+169.8135 	EXP 	nasa_slider: markerPos = 0.9824074074074082
+169.8205 	EXP 	nasa_slider: markerPos = 0.9824074074074082
+169.8287 	EXP 	nasa_slider: markerPos = 0.9824074074074082
+169.8352 	EXP 	nasa_slider: markerPos = 0.9824074074074082
+169.8422 	EXP 	nasa_slider: markerPos = 0.9824074074074082
+169.8491 	EXP 	nasa_slider: markerPos = 0.9824074074074082
+169.8560 	EXP 	nasa_slider: markerPos = 0.9824074074074082
+169.8630 	EXP 	nasa_slider: markerPos = 0.9824074074074082
+169.8699 	EXP 	nasa_slider: markerPos = 0.9824074074074082
+169.8769 	EXP 	nasa_slider: markerPos = 0.9824074074074082
+169.8838 	EXP 	nasa_slider: markerPos = 0.9824074074074082
+169.8907 	EXP 	nasa_slider: markerPos = 0.9824074074074082
+169.8978 	EXP 	nasa_slider: markerPos = 0.9824074074074082
+169.9047 	EXP 	nasa_slider: markerPos = 0.9824074074074082
+169.9116 	EXP 	nasa_slider: markerPos = 0.9824074074074082
+169.9186 	EXP 	nasa_slider: markerPos = 0.9824074074074082
+169.9269 	EXP 	nasa_slider: markerPos = 0.9824074074074082
+169.9330 	EXP 	nasa_slider: markerPos = 0.9824074074074082
+169.9399 	EXP 	nasa_slider: markerPos = 0.9824074074074082
+169.9469 	EXP 	nasa_slider: markerPos = 0.9824074074074082
+169.9539 	EXP 	nasa_slider: markerPos = 0.9824074074074082
+169.9608 	EXP 	nasa_slider: markerPos = 0.9824074074074082
+169.9693 	EXP 	nasa_slider: markerPos = 0.9824074074074082
+169.9747 	EXP 	nasa_slider: markerPos = 0.9824074074074082
+169.9817 	EXP 	nasa_slider: markerPos = 0.9824074074074082
+169.9886 	EXP 	nasa_slider: markerPos = 0.9824074074074082
+169.9956 	EXP 	nasa_slider: markerPos = 0.9824074074074082
+170.0025 	EXP 	nasa_slider: markerPos = 0.9824074074074082
+170.0064 	DATA 	Mouse:  Left button up, pos=(419,540)
+170.0094 	EXP 	nasa_slider: markerPos = 0.9824074074074082
+170.0164 	EXP 	nasa_slider: markerPos = 1.0
+170.0174 	EXP 	New trial (rep=0, index=5): OrderedDict([('nasa_ques', '::: TEMPORAL DEMAND :::'), ('nasa_tre', 'Were you hurried or rushed to pace of the task?')])
+170.0289 	EXP 	nasa_question: autoDraw = False
+170.0289 	EXP 	nasa_tresec: autoDraw = False
+170.0289 	EXP 	nasa_slider: autoDraw = False
+170.0289 	EXP 	nasa_question: height = 0.02
+170.0289 	EXP 	nasa_question: height = 0.02
+170.0289 	EXP 	nasa_question: height = 0.02
+170.0289 	EXP 	nasa_question: text = '::: TEMPORAL DEMAND :::'
+170.0289 	EXP 	nasa_tresec: height = 0.05
+170.0289 	EXP 	nasa_tresec: height = 0.05
+170.0289 	EXP 	nasa_tresec: height = 0.05
+170.0289 	EXP 	nasa_tresec: text = 'Were you hurried or rushed to pace of the task?'
+170.0289 	EXP 	nasa_slider: markerPos = None
+170.0289 	EXP 	nasa_slider: markerPos = None
+170.0289 	EXP 	nasa_question: autoDraw = True
+170.0289 	EXP 	nasa_tresec: autoDraw = True
+170.0289 	EXP 	nasa_slider: autoDraw = True
+174.0775 	DATA 	Mouse: Left button down, pos=(430,542)
+174.0875 	EXP 	nasa_slider: markerPos = 1.1759259259259256
+174.0945 	EXP 	nasa_slider: markerPos = 1.1759259259259256
+174.1015 	EXP 	nasa_slider: markerPos = 1.1759259259259256
+174.1084 	EXP 	nasa_slider: markerPos = 1.1759259259259256
+174.1153 	EXP 	nasa_slider: markerPos = 1.1759259259259256
+174.1223 	EXP 	nasa_slider: markerPos = 1.1759259259259256
+174.1293 	EXP 	nasa_slider: markerPos = 1.1759259259259256
+174.1362 	EXP 	nasa_slider: markerPos = 1.1759259259259256
+174.1432 	EXP 	nasa_slider: markerPos = 1.1759259259259256
+174.1501 	EXP 	nasa_slider: markerPos = 1.1759259259259256
+174.1570 	EXP 	nasa_slider: markerPos = 1.1759259259259256
+174.1640 	EXP 	nasa_slider: markerPos = 1.1759259259259256
+174.1710 	EXP 	nasa_slider: markerPos = 1.1759259259259256
+174.1779 	EXP 	nasa_slider: markerPos = 1.1759259259259256
+174.1848 	EXP 	nasa_slider: markerPos = 1.1759259259259256
+174.1918 	EXP 	nasa_slider: markerPos = 1.1759259259259256
+174.1988 	EXP 	nasa_slider: markerPos = 1.1759259259259256
+174.2057 	EXP 	nasa_slider: markerPos = 1.1759259259259256
+174.2126 	EXP 	nasa_slider: markerPos = 1.1759259259259256
+174.2196 	EXP 	nasa_slider: markerPos = 1.1759259259259256
+174.2265 	EXP 	nasa_slider: markerPos = 1.1759259259259256
+174.2335 	EXP 	nasa_slider: markerPos = 1.1759259259259256
+174.2404 	EXP 	nasa_slider: markerPos = 1.1759259259259256
+174.2474 	EXP 	nasa_slider: markerPos = 1.1759259259259256
+174.2543 	EXP 	nasa_slider: markerPos = 1.1759259259259256
+174.2613 	EXP 	nasa_slider: markerPos = 1.1759259259259256
+174.2682 	EXP 	nasa_slider: markerPos = 1.1759259259259256
+174.2752 	EXP 	nasa_slider: markerPos = 1.1759259259259256
+174.2821 	EXP 	nasa_slider: markerPos = 1.1759259259259256
+174.2891 	EXP 	nasa_slider: markerPos = 1.1759259259259256
+174.2960 	EXP 	nasa_slider: markerPos = 1.1759259259259256
+174.2975 	DATA 	Mouse:  Left button up, pos=(430,542)
+174.3029 	EXP 	nasa_slider: markerPos = 1.0
+174.3099 	EXP 	nasa_question: autoDraw = False
+174.3099 	EXP 	nasa_tresec: autoDraw = False
+174.3099 	EXP 	nasa_slider: autoDraw = False
+174.3099 	EXP 	end_img: autoDraw = True
+178.2997 	DATA 	Keypress: space
+178.3060 	EXP 	end_img: autoDraw = False
+178.3474 	EXP 	window1: mouseVisible = True
